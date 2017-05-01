@@ -13,6 +13,7 @@ export function loadCoursesSuccess (courses){
 export function loadCourses(){
   return function(dispatch){
     return courseAPI.getAllCourses().then(courses => {
+      console.log('Getting Courses', courses);
       dispatch(loadCoursesSuccess(courses));
     }).catch(error => {
         throw(error);

@@ -22,7 +22,7 @@ const CourseList = ({courses}) => {
 };
 
 CourseList.propTypes = {
-  course: PropTypes.array.isRequired
+  courses: PropTypes.array.isRequired
 };
 
 export default CourseList;

@@ -18,7 +18,7 @@ class CoursesPage extends React.Component{
     return(
       <div>
         <h1>Courses</h1>
-        <CourseList course={courses}/>
+        <CourseList courses={courses}/>
       </div>
     );
   }
